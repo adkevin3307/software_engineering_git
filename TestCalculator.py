@@ -6,7 +6,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(9, 3), 12)
     
     def test_float_add(self):
-        self.assertEqual(add(4.2, 3.1), 7.3)
+        self.assertEqual(add(4.2, 3), 7.2)
 
     def test_int_minus(self):
         self.assertEqual(minus(9, 3), 6)
