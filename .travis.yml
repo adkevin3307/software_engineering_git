@@ -19,4 +19,4 @@ deploy:
     on:
       repo: adkevin3307/software_engineering_git
     run:
-      "web: gunicorn app_run:app"
+      "web: gunicorn app_run: app"
