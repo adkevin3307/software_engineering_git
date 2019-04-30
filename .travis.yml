@@ -18,5 +18,3 @@ deploy:
   app: software-engineering-git
   on:
     repo: adkevin3307/software_engineering_git
-  run:
-    "web: gunicorn manage:app"
